@@ -8,4 +8,6 @@ git clone https://github.com/radare/radare2 && cd radare2 && sys/user.sh && \
 /root/bin/r2pm -i r2ghidra-dec && \
 pip install --upgrade r2pipe && \
 # Get pwn tools
-pip install --upgrade git+https://github.com/Gallopsled/pwntools.git@dev
+pip install --upgrade git+https://github.com/Gallopsled/pwntools.git@dev && \
+# Update PATH variable
+export PATH="/root/bin/:$PATH"
